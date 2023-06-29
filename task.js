@@ -24,7 +24,7 @@ if (fruit === "apple") {
  // for loop method is applied here.
 const arr = [2, 4, 6, 9, 11, 15]
  
-for(let i = 0; i <= arr.length; i++){
+for(let i = 0; i < arr.length; i++){
  if(i%2 === 0) {
   console.log(`${i} is even`)
  }else{
